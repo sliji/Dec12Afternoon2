@@ -10,9 +10,12 @@
  */
 public class AccessDemo {
     private int x = 56; 
-    private void testDemo(){  
-           System.out.println("It cannot be accessed in another class");  
-      } 
+    public void test(){  
+            System.out.println("Example of public access specifier");  
+      }  
+    public void test(){  
+            System.out.println("Example of public access specifier");  
+      }  
     public void test(){  
             System.out.println("Example of public access specifier");  
       }  
